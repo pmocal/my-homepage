@@ -90,3 +90,41 @@ nav li a:hover { background: #ccc; }
 	height: 1%;
 	font-style: italic;
 }
+
+#dropdown
+{
+
+}
+
+#dropdown a
+{	
+}
+
+#dropdown div
+{	
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2
+}
+
+#dropdown div a
+{	
+	position: relative;
+	margin: 0;
+	padding: 5px 10px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background: #333;
+	color: #FFF;
+}
+
+#dropdown div a:hover
+{	
+	background: #ccc;
+	color: #FFF;
+}
