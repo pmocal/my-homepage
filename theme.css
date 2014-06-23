@@ -51,41 +51,50 @@
 	border-right: 1px solid #fff;
 }
 
-#nav a:hover
+#nav li:hover
 {
 	background: #ccc; 
 }
 
 
 
-
-#nav ul{
-    list-style:none;
+#dropdown #drop{
+	list-style:none;
     position:absolute;
-    /*display: none;*/
-    left:-40px; <span class="code-comment"> /*Hide off-screen when not needed (this is more accessible than display:none;)*/ </span>
+    left:-4000px;
 }
-#nav ul li{
-	padding-top:1px; <span class="code-comment">/* Introducing a padding between the li and the a give the illusion spaced items */</span>
-    float:none;
+
+#dropdown ul li{
+	padding-top:1px;
+	float:none;
 }
-#nav ul a{
+
+#dropdown #drop a{
 	background:#333;
-    white-space:nowrap; <span class="code-comment">/* Stop text wrapping and creating multi-line dropdown items */</span>
+	white-space:nowrap;
 }
-#nav a:hover ul{ <span class="code-comment">/* Display the dropdown on hover */</span>
-	display: table-column-group;
-    /*left:-40px <span class="code-comment"> Bring back on-screen when needed </span>*/
+
+#dropdown #drop li:hover{ <span class="code-comment">/* Here we define the most explicit hover states--what happens when you hover each individual link. */</span>
+    background:#ccc;
 }
-#nav a:hover a{ <span class="code-comment">/* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */</span>
-    background:#6b0c36;
+
+#dropdown:hover #drop{
+	left:-40px;
 }
-#nav a:hover ul a{ <span class="code-comment">/* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */</span>
-    text-decoration:none;
+
+#dropdown:hover #drop a{
+	text-decoration:none;
 }
-#nav a:hover ul li a:hover{ <span class="code-comment">/* Here we define the most explicit hover states--what happens when you hover each individual link. */</span>
-    background:#333;
+
+.inner{
+	background:#ccc;
 }
+
+
+
+
+
+
 
 
 
