@@ -16,7 +16,11 @@
 	font-style: italic;
 }
 
-#header h1 { margin: 0; }
+#header h1 {
+	margin: 0;
+}
+
+
 
 #nav
 {
@@ -30,7 +34,6 @@
 	list-style:none;
 
 }
-
 #nav li
 {
 	/*list-style-type: none;
@@ -58,48 +61,38 @@
 
 
 
+
 #dropdown #drop{
 	list-style:none;
     position:absolute;
     left:-4000px;
 }
 
-#dropdown ul li{
-	padding-top:1px;
-	float:none;
-}
-
-#dropdown #drop a{
-	background:#333;
-	white-space:nowrap;
-}
-
-#dropdown #drop li:hover{ <span class="code-comment">/* Here we define the most explicit hover states--what happens when you hover each individual link. */</span>
-    background:#ccc;
-}
-
 #dropdown:hover #drop{
 	left:-40px;
 }
 
+#dropdown #drop li{
+	float:none;
+}
+
 #dropdown:hover #drop a{
-	text-decoration:none;
+	background:#333;
+	white-space:nowrap;
 }
 
-.inner{
-	background:#ccc;
+#dropdown:hover #drop li:hover a{
+	background: #ccc;
 }
 
 
 
 
+#chosen a {
+	background: #ccc;
+}
 
 
-
-
-
-
-#chosen a { background: #ccc; }
 
 #content-container
 {
@@ -133,51 +126,10 @@
 
 #footer
 {
-	clear: left;
+	clear: both;
 	background: #ccc;
 	text-align: right;
 	padding: 15px;
 	height: 1%;
 	font-style: italic;
 }
-
-
-/*
-#dropdown
-{
-
-}
-
-#dropdown a
-{	
-}
-
-#dropdown div
-{	
-	position: absolute;
-	visibility: hidden;
-	margin: 0;
-	padding: 0;
-	background: #EAEBD8;
-	border: 1px solid #5970B2
-}
-
-#dropdown div a
-{	
-	position: relative;
-	margin: 0;
-	padding: 5px 10px;
-	width: auto;
-	white-space: nowrap;
-	text-align: left;
-	text-decoration: none;
-	background: #333;
-	color: #FFF;
-}
-
-#dropdown div a:hover
-{	
-	background: #ccc;
-	color: #FFF;
-}
-*/
