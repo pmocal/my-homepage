@@ -11,9 +11,10 @@
 
 #header
 {
-	background: #FFF056;
+	background:#FF6600;
 	padding: 20px;
 	font-style: italic;
+	/*color:#FFFFFF;*/
 }
 
 #header h1 {
@@ -58,8 +59,9 @@
 {
 	background: #ccc; 
 }
-
-
+.chosen a {
+	background: #ccc;
+}
 
 
 #dropdown #drop{
@@ -87,9 +89,12 @@
 
 
 
-
-#chosen a {
-	background: #ccc;
+p iframe {
+    display: block;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: 0;
 }
 
 
@@ -106,6 +111,16 @@
 	clear: left;
 	float: left;
 	width: 60%;
+	padding: 20px 0;
+	margin: 0 0 0 4%;
+	display: inline;
+}
+
+#onlycontent
+{
+	clear: left;
+	float: center;
+	width: 100%;
 	padding: 20px 0;
 	margin: 0 0 0 4%;
 	display: inline;
