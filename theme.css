@@ -13,12 +13,12 @@
 {
 	background:#FF6600;
 	padding: 20px;
-	font-style: italic;
 	/*color:#FFFFFF;*/
 }
 
 #header h1 {
 	margin: 0;
+	font-family: 'Oswald', sans-serif;
 }
 
 
@@ -81,6 +81,7 @@
 #dropdown:hover #drop a{
 	background:#333;
 	white-space:nowrap;
+	border-right: 0px;
 }
 
 #dropdown:hover #drop li:hover a{
@@ -111,12 +112,12 @@ p iframe {
 	clear: left;
 	float: left;
 	width: 60%;
-	padding: 20px 0;
+	padding: 30px 0;
 	margin: 0 0 0 4%;
 	display: inline;
 }
 
-#onlycontent
+#solecontent
 {
 	clear: left;
 	float: center;
@@ -126,18 +127,31 @@ p iframe {
 	display: inline;
 }
 
-#content h2 { margin: 0; }
+#content h2 {
+	padding-bottom: 15px;
+	margin: 0;
+}
+
+
+
+img{
+	padding-left: 40px;
+	padding-bottom: 40px;
+	float: right;
+}
 
 #aside
 {
 	float: right;
 	width: 26%;
-	padding: 20px 0;
+	padding: 30px 0;
 	margin: 0 3% 0 0;
 	display: inline;
 }
 
 #aside h3 { margin: 0; }
+
+
 
 #footer
 {
@@ -146,5 +160,5 @@ p iframe {
 	text-align: right;
 	padding: 15px;
 	height: 1%;
-	font-style: italic;
+	font-family: 'Oswald', sans-serif;
 }
