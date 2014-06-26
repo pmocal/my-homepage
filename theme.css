@@ -2,6 +2,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+
 #container
 {
 	margin: 0 auto;
@@ -9,13 +10,16 @@
 	background: #fff;
 }
 
+
 #header
 {
-	background:#FF6600;
+	/*background:#FF6600;*/
+	background-image:url(banners/GITS.jpg);
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
 	padding: 20px;
-	/*color:#FFFFFF;*/
+	color:#FFFFFF;
 }
-
 #header h1 {
 	margin: 0;
 	font-family: 'Oswald', sans-serif;
@@ -33,7 +37,6 @@
 	
 	position:relative;
 	list-style:none;
-
 }
 #nav li
 {
@@ -44,7 +47,6 @@
 	float:left;
 	position:relative;
 }
-
 #nav a
 {
 	display: block;
@@ -54,7 +56,6 @@
 	text-decoration: none;
 	border-right: 1px solid #fff;
 }
-
 #nav li:hover
 {
 	background: #ccc; 
@@ -62,42 +63,25 @@
 .chosen a {
 	background: #ccc;
 }
-
-
 #dropdown #drop{
 	list-style:none;
     position:absolute;
     left:-4000px;
 }
-
 #dropdown:hover #drop{
 	left:-40px;
 }
-
 #dropdown #drop li{
 	float:none;
 }
-
 #dropdown:hover #drop a{
 	background:#333;
 	white-space:nowrap;
 	border-right: 0px;
 }
-
 #dropdown:hover #drop li:hover a{
 	background: #ccc;
 }
-
-
-
-p iframe {
-    display: block;
-    width: 800px;
-    height: 400px;
-    margin: 0 auto;
-    border: 0;
-}
-
 
 
 #content-container
@@ -106,7 +90,6 @@ p iframe {
 	width: 100%;
 	background: #FFF url(layout-two-liquid-background.gif) repeat-y 68% 0;
 }
-
 #content
 {
 	clear: left;
@@ -116,7 +99,6 @@ p iframe {
 	margin: 0 0 0 4%;
 	display: inline;
 }
-
 #solecontent
 {
 	clear: left;
@@ -126,19 +108,11 @@ p iframe {
 	margin: 0 0 0 4%;
 	display: inline;
 }
-
 #content h2 {
 	padding-bottom: 15px;
 	margin: 0;
 }
 
-
-
-img{
-	padding-left: 40px;
-	padding-bottom: 40px;
-	float: right;
-}
 
 #aside
 {
@@ -148,9 +122,23 @@ img{
 	margin: 0 3% 0 0;
 	display: inline;
 }
-
 #aside h3 { margin: 0; }
 
+
+img{
+	padding-left: 40px;
+	padding-bottom: 40px;
+	float: right;
+}
+
+
+p iframe {
+    display: block;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: 0;
+}
 
 
 #footer
