@@ -27,6 +27,7 @@ div{
 	background-image:url('valley-nr-Lai-Chau-resize.jpg');
 	background-repeat: no-repeat;
 	background-position: 0% 10%;
+	background-size: 100%;
 	padding: 20px;
 	color:#FFFFFF;
 }
